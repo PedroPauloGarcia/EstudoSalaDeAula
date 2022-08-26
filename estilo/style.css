@@ -45,10 +45,6 @@ cite{
     text-align:right;
 }
 
-.limpaFloat{
-    clear:both;
-}
-
 h2 {
     font-size:40px;
 }
@@ -67,11 +63,11 @@ aside,figure{
     border:5px solid var(--cor-preto);
 }
 
-aside {
+aside{
     width:18%;
     margin:auto;
-    position:relative;
-    top:20px;
+    position: relative;
+    top:-140px;
     right:20px;
     clear:right;
     background-color:var(--cor-secundaria);
@@ -109,9 +105,17 @@ footer{
     clear:both;
 }
 
+.limpaFloat{
+    clear:both;
+}
+
 .divisaoColuna{
     float:left;
     width:40%;
+}
+
+.reducaoDoTexto{
+    width:70%;
 }
 
 .diferenciado {
@@ -124,6 +128,15 @@ footer{
 
 .vermelho{
     color:red;
+}
+
+.iconesDasRedes li{
+    display: inline-block;
+}
+
+.iconesDasRedes, a{
+    width: 40px;
+    height: 40px;
 }
 
 #nomeCliente{
