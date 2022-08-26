@@ -70,7 +70,11 @@ aside{
     top:-140px;
     right:20px;
     clear:right;
-    background-color:var(--cor-secundaria);
+    background-color:var(--cor-azul);
+}
+
+ul{
+    background-color: var(--cor-azul);
 }
 
 li{
@@ -80,11 +84,10 @@ li{
     padding:10px;
 }
 
-li a {
+nav ul li a {
     display:block;
-    color:rgb(233, 221, 221);
+    color: var(--cor-secundaria);
     padding:10px;
-    line-height:20px;
     text-decoration:none;
     text-transform:bold;
     text-align:center;
@@ -131,12 +134,18 @@ footer{
 }
 
 .iconesDasRedes li{
+    background-color: var(--cor-azul);
     display: inline-block;
-}
-
-.iconesDasRedes, a{
     width: 40px;
     height: 40px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.iconesDasRedes a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
 }
 
 #nomeCliente{
