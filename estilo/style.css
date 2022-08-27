@@ -65,9 +65,10 @@ aside,figure{
 
 aside{
     width:18%;
+
     margin:auto;
     position: relative;
-    top:-140px;
+    top:-68px;
     right:20px;
     clear:right;
     background-color:var(--cor-azul);
@@ -143,6 +144,7 @@ footer{
 }
 
 .iconesDasRedes a{
+    background-image: url(img/github.png);
     width: 40px;
     height: 40px;
     display: inline-block;
