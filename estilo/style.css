@@ -28,7 +28,6 @@ header{
 header nav{
     width: 1024px;
     position: absolute;
-    text-align: center;
     bottom: 0;
 }
 
@@ -44,7 +43,7 @@ main{
     /* margin: 20px; */
     padding: 20px;
     position: relative;
-}
+ }
 
 blockquote{
     padding: 10px;
@@ -76,6 +75,14 @@ h2 {
     font-size: 40px;
 }
 
+p{
+    text-indent: 50px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
 figure{
     width: 19.4%;
     position: absolute;
@@ -94,7 +101,7 @@ aside {
     width: 18%;
     margin: auto;
     position: relative;
-    top: -55px;
+    /* top: -34px; */
     bottom: 34px;
     right: 20px;
     clear: right;
@@ -109,11 +116,6 @@ li{
     height: 40px;
     width: 40px; 
     */
-}
-
-ul, ol{
-    list-style: none;
-    /* list-style-type: none; */
 }
 
 nav ul li a {
@@ -181,7 +183,9 @@ img{
 
 aside, nav, ul{
     background-color: var(--cor-azul);
-    list-style: none;
+    /* todos os atributos de lista */
+    /* só o atributo tipo */
+    /* list-style-type: none; */
 }
 
 .icones-sociais li{
@@ -199,18 +203,18 @@ aside, nav, ul{
     display: inline-block;
     color: white;
     text-indent: -9999px;
-    /* font-size: 0px; */
-    /* color: transparent; */
-}
+    /* font-size: 0 !important; */
+    /* color: rgba(0,0,0,0); */
+ }
 
-.github{
-    background-image: url(../img/github.png);
-}
+ .github{
+     background-image: url(../img/github.png);
+ }
 
-.twitter{
-    background-image: url(../img/twitter.png);
-}
+ .linkedin{
+     background-image: url(../img/linkedin.png);
+ }
 
-.linkedin{
-    background-image: url(../img/linkedin.png);
-}
+ .twitter{
+     background-image: url(../img/twitter.png)
+ }
