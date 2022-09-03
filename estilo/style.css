@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --cor-de-fundo: rgb(231, 134, 7);
     --cor-secundaria: rgb(255, 255, 255);
     --cor-azul: rgb(0,0,255);
@@ -12,17 +12,48 @@
     --cor-laranja-claro: rgb(255, 235, 205);
 }
 
-body{
+body {
     font-family: Roboto, sans-serif;
     background-color: var(--cor-de-fundo);
 }
 
-header{
+header {
     background-color: var(--cor-de-fundo);
     height: 150px;
     width: 1024px;
     margin: auto;
     position: relative;
+}
+
+header img {
+    width: 80px;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 10;
+    height: 90px;   
+}
+
+input[type=text]{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 38px;
+    left: 250px;
+    top: 10px;  
+    text-indent: 5px;
+}
+
+#textoEnviamos{
+    position: absolute;
+    left: 320px;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
 }
 
 header nav{
@@ -168,7 +199,7 @@ footer{
 }
 
 img{
-    width: 100%
+    width: 100%;
 }
 
 .vermelho{

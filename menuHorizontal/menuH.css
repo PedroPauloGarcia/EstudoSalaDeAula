@@ -48,7 +48,7 @@ nav ul li:nth-child(6) a {
     background-color: chocolate;
 }
 
-nav ul:last-child{
+nav ul:last-child {
     background-color: var(--cor-fundo);
 }
 
