@@ -29,13 +29,6 @@ header img {
     width: 80px;
 }
 
-#logo {
-    position: absolute;
-    left: 0;
-    top: 10;
-    height: 90px;   
-}
-
 input[type=text]{
     position: absolute;
     width: 500px;
@@ -45,15 +38,6 @@ input[type=text]{
     left: 250px;
     top: 10px;  
     text-indent: 5px;
-}
-
-#textoEnviamos{
-    position: absolute;
-    left: 320px;
-    top: 70px;
-    font-size: 20px;
-    text-align: center;
-    color: var(--cor-secundaria);
 }
 
 header nav{
@@ -98,10 +82,6 @@ cite{
     text-align: right;
 }
 
-.limpaFloat{
-    clear: both;
-}
-
 h2 {
     font-size: 40px;
 }
@@ -121,11 +101,22 @@ figure{
     right: 30px;    
 }
 
+img{
+    width: 100%;
+}
+
 aside, figure{
     float: right;
     background-color: #7a7a7a;
     color: var(--cor-secundaria);
     border: 5px solid var(--cor-preto);
+}
+
+aside, nav, ul{
+    background-color: var(--cor-azul);
+    /* todos os atributos de lista */
+    /* só o atributo tipo */
+    /* list-style-type: none; */
 }
 
 aside {
@@ -173,6 +164,10 @@ footer{
     clear: both;/*left right both*/
 }
 
+.limpaFloat{
+    clear: both;
+}
+
 .divisaoColuna{
     float: left;
     width: 40%;
@@ -198,8 +193,40 @@ footer{
     /* color: #0000FF; hexadecimal */
 }
 
-img{
-    width: 100%;
+#logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 90px;   
+}
+
+#carrinhoCliente{
+    width: 14%;
+    margin: 0 10px;
+    position: absolute;
+    right: 35px;
+    background-color: transparent;
+    border: none;
+}
+
+#carrinho, #clientes{
+    position: relative;
+    top: 20px;
+    width: 40px; 
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50px;
+    border: 2px black solid;
+    background-color: white;
+}
+
+#textoEnviamos{
+    position: absolute;
+    left: 320px;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
 }
 
 .vermelho{
@@ -210,13 +237,6 @@ img{
     display: block;
     font-size: 18px;
     text-align: center;
-}
-
-aside, nav, ul{
-    background-color: var(--cor-azul);
-    /* todos os atributos de lista */
-    /* só o atributo tipo */
-    /* list-style-type: none; */
 }
 
 .icones-sociais li{
